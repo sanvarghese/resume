@@ -1542,4 +1542,7 @@ const dsnParam = {
 function sidebarOptions() {
   document.body.classList.toggle('dsn-show-sidebar');
 }
+
+const currentDate = new Date();
+const currentYear = currentDate.getFullYear();
 //# sourceMappingURL=custom.js.map
