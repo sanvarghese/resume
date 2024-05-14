@@ -9,7 +9,7 @@
     <link rel="icon" href="assets/img/logo-32x32.png" sizes="32x32" />
     <link rel="icon" href="assets/img/logo-192x192.png" sizes="192x192" />
 
-    <title>Contact Us | Blackdsn</title>
+    <title>Contact</title>
 
     <link href="assets/css/plugins.css" rel="stylesheet" />
     <link rel="stylesheet" href="assets/css/style.css">
@@ -161,36 +161,26 @@
         </header>
         <!-- ========== End Menu ========== -->
 
-        <!-- ========== Header Normal========== -->
-        <header id="dsn_header" class="dsn-header-animation header-normal">
-            <div class="background-overlay bg-pattern p-absolute left-0 top-0 w-100 h-100"></div>
-
+        <!-- ========== Header  ========== -->
+        <header id="dsn_header" class="dsn-header-animation  show-box-shadow dsn-container section-padding v-dark-head">
             <div class="entry-header p-relative over-hidden">
-                <div id="hero_content"
-                    class="d-flex p-relative h-100 dsn-hero-parallax-title container align-items-center pb-section ">
+                <div class="p-absolute dsn-hero-parallax-img over-hidden before-z-index z-index-1 full-width" id="hero_image"
+                    data-dsn-ajax="img" data-overlay="2">
+                    <img class="cover-bg-img transform-3d" src="assets/img/portfolio/project4/1.jpg" alt="" />
+                </div>
+        
+                <div id="hero_content" class="d-flex align-items-end p-relative h-100 dsn-hero-parallax-title container">
                     <div class="content p-relative ">
                         <div class="intro-project w-100">
                             <div class="intro-title ">
-
-                                <div id="hero_title" class="mt-20">
-                                    <h1 class="title text-upper">
-                                        Contact Us
-                                    </h1>
+                                <div id="dsn_metas" class="p-relative d-flex justify-content-between ">
+                                    <div class="metas has-separate p-relative mb-10">
+                                        <span>Home</span>
+                                        <span>Contact</span>
+                                    </div>
                                 </div>
-                                <p class="mt-20 max-w570">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in elit felis.
-                                    Praesent
-                                    metus
-                                    tortor, pellentesque id ligula sed, pulvinar molestie dui. Sed in nisl turpis.
-                                </p>
-                                <div class="dsn-def-btn dsn-hover-icon dsn-icon-heading-color mt-20 d-flex">
-                                    <a class='dsn-btn dsn-border border-color-default  background-section effect-ajax has-icon-left'
-                                        data-dsn-text='OUR PORTFOLIO' href='work-card-1.html'>
-                                        <span class="dsn-icon dsn-bg-before btn-icon-left heading-color z-index-1">
-                                            <i class="fas fa-angle-right" aria-hidden="true"></i>
-                                        </span>
-                                        <span class="title-btn p-relative  z-index-1 ">See More Works</span>
-                                    </a>
+                                <div id="hero_title">
+                                    <h1 class="title" data-dsn-ajax="title">Contact</h1>
                                 </div>
                             </div>
                         </div>
@@ -201,9 +191,9 @@
                 data-dsn-option='{"ease": "power4.inOut" , "duration" : 1.5}'>
                 <div class="text">SCROLL</div>
             </a>
+        
         </header>
-        <!-- ========== End Header Normal ========== -->
-
+        <!-- ========== End Header  ========== -->
 
         <div id="page_wrapper" class="wrapper">
             <!-- ========== Contact  ========== -->
@@ -212,9 +202,8 @@
                 <div class="p-relative container d-grid grid-1-half" data-dsn-gap="30px 60px">
                     <div class="box-form">
                         <h2 class="title-h2 ">
-                            IF YOU HAVE QUESTIONS PLEASE <br>CONTACT US
+                            Get In Touch 
                         </h2>
-                        <p class="mt-10">Fill fields and find approximate your repair</p>
                         <div class="dsn-form mt-20 form-box d-flex flex-column">
                             <form id="contact-form" class="form w-100" method="post"
                                 action="https://blackbb.netlify.app/light/contact.php" data-toggle="validator">
