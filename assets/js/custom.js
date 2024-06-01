@@ -15,8 +15,9 @@ const dsnParam = {
     smooth: false,
     smoothTouch: false,
     mouseMultiplier: 1
-  },
-  name: "BLACKDSN"
+  }
+  ,
+  name: 'Loading..'
 };
 
 (function ($) {
