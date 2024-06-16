@@ -1546,4 +1546,13 @@ function sidebarOptions() {
 
 const currentDate = new Date();
 const currentYear = currentDate.getFullYear();
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  var currentYearElement = document.getElementById('currentYear');
+  if (currentYearElement) {
+    currentYearElement.textContent = new Date().getFullYear();
+  }
+});
+
 //# sourceMappingURL=custom.js.map
