@@ -671,9 +671,18 @@ h6,
   letter-spacing: 2px;
   color: #002c73;
 }
+.title-h1 {
+  font-size: 45px;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .title-h2 {
+    font-size: 35px;
+    line-height: inherit;
+  }
+  .title-h1 {
     font-size: 35px;
     line-height: inherit;
   }
@@ -681,6 +690,10 @@ h6,
 
 @media only screen and (max-width: 767px) {
   .title-h2 {
+    font-size: 30px;
+    line-height: inherit;
+  }
+  .title-h1 {
     font-size: 30px;
     line-height: inherit;
   }
@@ -729,6 +742,7 @@ h6,
 
   .sub-text-header br,
   .title-h2 br,
+  .title-h1 br,
   .subtitle br,
   .sm-p br,
   .section-title br,
